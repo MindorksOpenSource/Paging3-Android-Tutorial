@@ -4,15 +4,15 @@
 
 This repository contains a sample app that implements Paging 3 library in Android.
 <p align="center">
-  <img src="https://github.com/MindorksOpenSource/Dagger-Hilt-Tutorial/blob/master/assets/banner-dagger-hilt.png">
+  <img src="https://github.com/MindorksOpenSource/Paging3-Android-Tutorial/blob/master/image/paging-3-banner.png">
 </p>
 
-### Concept reference resources - [Paging 3 Android Tutorial](https://blog.mindorks.com/paging3-tutorial)
+### Concept reference resources - [Paging 3 Android Tutorial](https://blog.mindorks.com/paging-3-tutorial)
 
 
 #### The app has following packages:
-1. **data**: It contains all the data accessing.
-2. **response**: It contains the files required for Api call
+1. **data**: It contains all the data class and the ApiService.
+2. **adapter**: It contains the adapter for RecyclerView.
 
 
 ### Library reference resources:

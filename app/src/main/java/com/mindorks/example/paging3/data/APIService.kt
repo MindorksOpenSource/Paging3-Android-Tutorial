@@ -12,7 +12,7 @@ import retrofit2.http.Query
 interface APIService {
 
     @GET("api/users")
-    suspend fun getListData(@Query("page") pageNumber: Int): Response<ApiResponse>
+    suspend fun getListData(@Query("page") pageNumber: Int): ApiResponse
 
     companion object {
 
